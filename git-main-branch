@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# Gets the "main" branch name for a gethub repository.
+# Gets the "main" branch name for a git repository.
 
 if [[ $1 == "--help" ]]; then
   cat <<EOM
