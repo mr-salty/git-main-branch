@@ -1,0 +1,2 @@
+#! /bin/sh
+hub api -t 'repos/{owner}/{repo}' | awk '/^\.default_branch/ {print $2}'
